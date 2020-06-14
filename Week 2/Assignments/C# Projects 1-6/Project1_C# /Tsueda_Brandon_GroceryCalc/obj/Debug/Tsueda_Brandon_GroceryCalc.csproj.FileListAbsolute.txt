@@ -1,0 +1,7 @@
+C:\Users\brand\source\repos\Tsueda_Brandon_GroceryCalc\Tsueda_Brandon_GroceryCalc\bin\Debug\Tsueda_Brandon_GroceryCalc.exe.config
+C:\Users\brand\source\repos\Tsueda_Brandon_GroceryCalc\Tsueda_Brandon_GroceryCalc\bin\Debug\Tsueda_Brandon_GroceryCalc.exe
+C:\Users\brand\source\repos\Tsueda_Brandon_GroceryCalc\Tsueda_Brandon_GroceryCalc\bin\Debug\Tsueda_Brandon_GroceryCalc.pdb
+C:\Users\brand\source\repos\Tsueda_Brandon_GroceryCalc\Tsueda_Brandon_GroceryCalc\obj\Debug\Tsueda_Brandon_GroceryCalc.csprojAssemblyReference.cache
+C:\Users\brand\source\repos\Tsueda_Brandon_GroceryCalc\Tsueda_Brandon_GroceryCalc\obj\Debug\Tsueda_Brandon_GroceryCalc.csproj.CoreCompileInputs.cache
+C:\Users\brand\source\repos\Tsueda_Brandon_GroceryCalc\Tsueda_Brandon_GroceryCalc\obj\Debug\Tsueda_Brandon_GroceryCalc.exe
+C:\Users\brand\source\repos\Tsueda_Brandon_GroceryCalc\Tsueda_Brandon_GroceryCalc\obj\Debug\Tsueda_Brandon_GroceryCalc.pdb
