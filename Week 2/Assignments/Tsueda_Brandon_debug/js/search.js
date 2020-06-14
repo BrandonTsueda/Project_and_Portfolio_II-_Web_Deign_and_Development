@@ -37,17 +37,19 @@ actual error because no syntax or runtime exception has occurred
 	;
 	
 	// Validates search query
-	//var validqte = function(query) - corrected spelling also added {} to function body
+	//var validqte = function(query) - corrected spelling also added { to function body
 	var validate = function(query)
 	{
 		
 		// Trim whitespace from start and end of search query
-		while(query.charAt(0) = " "){ 
+		//added another ==
+		while(query.charAt(0) === " "){ 
 			query = query.substring(1, query.length);
 		};
-		while(query.charat(query.length-1) === ""){  
+		while(query.charAt(query.length-1) === ""){  
 			query = query.substring(0, query.length-1);
-		;
+		//added a closing }
+		};
 		
 		// Check search length, must have 3 characters
 		if(query.length < 3){
@@ -69,7 +71,8 @@ actual error because no syntax or runtime exception has occurred
 	{
 		
 		// SPLIT the user's search query string into an array
-		var queryArray = query.join(" "); 
+		//changed from join to split
+		var queryArray = query.split(" "); 
 		
 		// array to store matched results from database.js
 		var results = [];
@@ -80,27 +83,30 @@ actual error because no syntax or runtime exception has occurred
 			// each db[i] is a single video item, each title ends with a pipe "|"
 			// save a lowercase variable of the video title
 			var dbTitleEnd = db[i].indexOf('|');
-			var dbitem = db[i].tolowercase().substring(0, dbTitleEnd);
+			//Changed tolowercase to toLowerCase
+			var dbitem = db[i].toLowerCase().substring(0, dbTitleEnd);
 			
 			// loop through the user's search query words
 			// save a lowercase variable of the search keyword
-			for(var ii=0, jj=queryArray.length; ii<jj; ii++){
-				var qitem = queryArray[ii].tolowercase(); 
+			for (var ii=0, jj=queryArray.length; ii<jj; ii++){
+				//changed tolowercase to toLowerCase
+				var qitem = queryArray[ii].toLowerCase(); 
 				
 				// is the keyword anywhere in the video title?
 				// If a match is found, push full db[i] into results array
 				var compare = dbitem.indexOf(qitem);
 				if(compare !== -1){
 					results.push(db[i]);
-				}
-			}	
-		}	
-	}	
-		
+				};
+			};	
+		}; //added 3 ; for 2 for loops and the if statement
+		//removed extra bracket
+
 		results.sort();
 		
 		// Check that matches were found, and run output functions
-		if(results.length = 0){ 
+		//added another =
+		if(results.length == 0){ 
 			noMatch();
 		}else{
 			showMatches(results);
@@ -131,7 +137,8 @@ actual error because no syntax or runtime exception has occurred
 			// title of video ends with pipe
 			// pull the title's string using index numbers
 			titleEnd = results[i].indexOf('|');
-			title = results[i].subString(0, titleEnd);
+			//changed subString to substring
+			title = results[i].substring(0, titleEnd);
 			
 			// pull the video url after the title
 			url = results[i].substring(results[i].indexOf('|')+1, results[i].length);
@@ -145,12 +152,13 @@ actual error because no syntax or runtime exception has occurred
 	// THE LINE DIRECTLY BELOW IS CORRECT
 	document.forms[0].onsubmit = function(){
 		var query = searchInput.value;
-		validqte(query);
+		//changed from validqtee to validate
+		validate(query);
 
  
         // THE LINE DIRECTLY BELOW IS CORRECT
 		return false;
-	;
+	};//added the }
 	
 //THE LINE BELOW IS CORRECT. It is the close of the self executing function.
 })();

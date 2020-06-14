@@ -1,0 +1,7 @@
+C:\Users\brand\source\repos\Tsueda_Brandon_MadLibs\Tsueda_Brandon_MadLibs\bin\Debug\Tsueda_Brandon_MadLibs.exe.config
+C:\Users\brand\source\repos\Tsueda_Brandon_MadLibs\Tsueda_Brandon_MadLibs\bin\Debug\Tsueda_Brandon_MadLibs.exe
+C:\Users\brand\source\repos\Tsueda_Brandon_MadLibs\Tsueda_Brandon_MadLibs\bin\Debug\Tsueda_Brandon_MadLibs.pdb
+C:\Users\brand\source\repos\Tsueda_Brandon_MadLibs\Tsueda_Brandon_MadLibs\obj\Debug\Tsueda_Brandon_MadLibs.csprojAssemblyReference.cache
+C:\Users\brand\source\repos\Tsueda_Brandon_MadLibs\Tsueda_Brandon_MadLibs\obj\Debug\Tsueda_Brandon_MadLibs.csproj.CoreCompileInputs.cache
+C:\Users\brand\source\repos\Tsueda_Brandon_MadLibs\Tsueda_Brandon_MadLibs\obj\Debug\Tsueda_Brandon_MadLibs.exe
+C:\Users\brand\source\repos\Tsueda_Brandon_MadLibs\Tsueda_Brandon_MadLibs\obj\Debug\Tsueda_Brandon_MadLibs.pdb
