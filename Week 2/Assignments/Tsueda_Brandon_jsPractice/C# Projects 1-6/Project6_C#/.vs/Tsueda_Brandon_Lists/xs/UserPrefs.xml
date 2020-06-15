@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{767CCD5F-40C5-4232-B2CF-88CA3F3D4106}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tsueda_Brandon_Lists/Program.cs">
+    <Files>
+      <File FileName="Tsueda_Brandon_Lists/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Tsueda_Brandon_Lists" expanded="True">
+            <Node name="Tsueda_Brandon_Lists" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Tsueda__Brandon__Lists PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

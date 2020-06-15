@@ -1,0 +1,7 @@
+c:\users\brand\source\repos\Tsueda_Brandon_Lists\Tsueda_Brandon_Lists\obj\Debug\Tsueda_Brandon_Lists.csprojAssemblyReference.cache
+c:\users\brand\source\repos\Tsueda_Brandon_Lists\Tsueda_Brandon_Lists\obj\Debug\Tsueda_Brandon_Lists.csproj.CoreCompileInputs.cache
+C:\Users\brand\source\repos\Tsueda_Brandon_Lists\Tsueda_Brandon_Lists\bin\Debug\Tsueda_Brandon_Lists.exe.config
+C:\Users\brand\source\repos\Tsueda_Brandon_Lists\Tsueda_Brandon_Lists\bin\Debug\Tsueda_Brandon_Lists.exe
+C:\Users\brand\source\repos\Tsueda_Brandon_Lists\Tsueda_Brandon_Lists\bin\Debug\Tsueda_Brandon_Lists.pdb
+C:\Users\brand\source\repos\Tsueda_Brandon_Lists\Tsueda_Brandon_Lists\obj\Debug\Tsueda_Brandon_Lists.exe
+C:\Users\brand\source\repos\Tsueda_Brandon_Lists\Tsueda_Brandon_Lists\obj\Debug\Tsueda_Brandon_Lists.pdb
