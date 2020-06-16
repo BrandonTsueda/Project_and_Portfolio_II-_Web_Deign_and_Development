@@ -1,0 +1,6 @@
+Z:\Documents 2\Visual Studio 2015\Projects\ReviewTestP2\ReviewTestP2\bin\Debug\ReviewTestP2.exe.config
+Z:\Documents 2\Visual Studio 2015\Projects\ReviewTestP2\ReviewTestP2\bin\Debug\ReviewTestP2.exe
+Z:\Documents 2\Visual Studio 2015\Projects\ReviewTestP2\ReviewTestP2\bin\Debug\ReviewTestP2.pdb
+Z:\Documents 2\Visual Studio 2015\Projects\ReviewTestP2\ReviewTestP2\obj\Debug\ReviewTestP2.csprojResolveAssemblyReference.cache
+Z:\Documents 2\Visual Studio 2015\Projects\ReviewTestP2\ReviewTestP2\obj\Debug\ReviewTestP2.exe
+Z:\Documents 2\Visual Studio 2015\Projects\ReviewTestP2\ReviewTestP2\obj\Debug\ReviewTestP2.pdb
