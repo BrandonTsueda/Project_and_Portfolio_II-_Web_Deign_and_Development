@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "u/hIIoythqv31vBHHmnjtBOxyLqEwHmOuirj3ro97CNLW7wxOlv3wQpROJfH5EogrThBSEdPSS5LDGfTpxh4fQ==",
+  "dgSpecHash": "vhvlftte5Wt0vkIoi3n9HfVCUdPUn8Ji+xG/DhFo2hU2z0bj0ub27Gobc6JWBXcHaXk/5Pdc9gCPDGUMnlLpcQ==",
   "success": true,
   "projectFilePath": "/Users/brandontsueda/GitHub_Repos/Project_and_Portfolio_II-_Web_Deign_and_Development/Week 4/Projects/Tsueda_Brandon_FinalProject/Tsueda_Brandon_FinalProject/Tsueda_Brandon_FinalProject.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/brandontsueda/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
