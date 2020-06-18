@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{8A255CD5-4246-4099-9AC9-EBC1F2E75104}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ReviewTestP2/Animal.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReviewTestP2/Dog.cs">
     <Files>
       <File FileName="ReviewTestP2/Animal.cs" Line="1" Column="1" />
       <File FileName="ReviewTestP2/App.config" Line="1" Column="1" />
-      <File FileName="ReviewTestP2/Dog.cs" />
+      <File FileName="ReviewTestP2/Dog.cs" Line="1" Column="1" />
       <File FileName="ReviewTestP2/Program.cs" />
     </Files>
     <Pads>
@@ -12,7 +12,7 @@
           <Node name="ReviewTestP2" expanded="True">
             <Node name="ReviewTestP2" expanded="True">
               <Node name="Properties" expanded="True" />
-              <Node name="Animal.cs" selected="True" />
+              <Node name="Dog.cs" selected="True" />
             </Node>
           </Node>
         </State>
