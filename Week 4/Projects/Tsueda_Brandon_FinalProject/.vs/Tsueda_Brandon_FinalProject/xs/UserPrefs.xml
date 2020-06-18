@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{D64E14B0-4234-47CC-91C3-94F2C05D6264}|Default">
+  <MonoDevelop.Ide.ItemProperties.Tsueda__Brandon__FinalProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tsueda_Brandon_FinalProject/Program.cs">
+    <Files>
+      <File FileName="Tsueda_Brandon_FinalProject/Program.cs" Line="6" Column="17" />
+      <File FileName="Tsueda_Brandon_FinalProject/Player.cs" Line="1" Column="1" />
+      <File FileName="Tsueda_Brandon_FinalProject/Enemy.cs" Line="10" Column="24" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Tsueda_Brandon_FinalProject" expanded="True">
+            <Node name="Tsueda_Brandon_FinalProject" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
