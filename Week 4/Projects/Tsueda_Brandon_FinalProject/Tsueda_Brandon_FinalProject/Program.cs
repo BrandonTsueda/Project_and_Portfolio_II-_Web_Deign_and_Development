@@ -18,20 +18,15 @@ namespace Tsueda_Brandon_FinalProject
 
             //declare values for character stats
             string name = null;
-            int health = 100;
-            int dmg = 0;
+            //TODO: int health = 100;
+            //TODO: int dmg = 0;
 
-            //instatiate a player object
-            Player character = new Player(name, health, dmg);
+            Player player = new Player(name);
 
             //while loop to run until the user chooses to exit
             while (programRunning)
             {
                 // Menu
-                //1. Start Game
-                //2. Create Character
-                //3. Load Charater
-                //4. Exit
                 Console.WriteLine("~~~~Game Menu~~~~\n\n" +
                     "   1. Start Game\n" +
                     "   2. Create Character\n" +
@@ -45,11 +40,11 @@ namespace Tsueda_Brandon_FinalProject
                 //switch statement with cases for each selection
                 switch (usersSelection)
                 {
-                    //Start Game - Run the game if there is a character loaded
+                    //TODO: Start Game - Run the game if there is a character loaded
                     case "1":
                         {
-                            //if and else statements to make sure there is a character loaded
-                            if(character == null)
+                            //TODO: if and else statements to make sure there is a character loaded
+                            if(player == null)
                             {
                                 Console.WriteLine("Please load or create a character first...");
                             }
@@ -63,17 +58,21 @@ namespace Tsueda_Brandon_FinalProject
                             break;
                         }
 
-                    //Create character - prompt user for values needed to create the character
+                    //TODO: Create character - prompt user for values needed to create the character
                     case "2":
                         {
                             Console.WriteLine("~~~~Create Character~~~~");
+                            Player.CreatePlayerSaveFile();
+
                             break;
                         }
 
-                    //Load character - display a list of generated characters for the user to load and select
+                    //TODO: Load character - display a list of generated characters for the user to load and select
                     case "3":
                         {
                             Console.WriteLine("~~~~Load Character~~~~");
+
+
                             break;
                         }
 
@@ -95,23 +94,15 @@ namespace Tsueda_Brandon_FinalProject
             }
         }
 
-        //Method for game actions
+        //TODO: Method for game actions
         //method to begin game
-        public void BeginGame(/*character not working*/)
+        public void GameMenu()
+        {
+
+        }
+        public void BeginGame()
         {
             Console.WriteLine("");
-        }
-
-        //method to create a character
-        public void CreateCharacter()
-        {
-
-        }
-
-        //method to load character
-        public void LoadCharacter()
-        {
-
         }
     }
 }
