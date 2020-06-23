@@ -20,6 +20,7 @@ namespace Tsueda_Brandon_FinalProject
             Dmg = dmg;
         }
 
+        //enemy attack
         public void Attack(Player player)
         {
             if (player.Health <= 0)
@@ -51,12 +52,13 @@ namespace Tsueda_Brandon_FinalProject
                 {
                     Console.ReadKey();
                     player.Health -= attack;
-                    Console.WriteLine("The " + Name +" attcked you for " + attack + " damage!");
+                    Console.WriteLine("The " + Name +" attcked you for " + attack + " damage!\n");
                 }
                 player.Attack(this);
             }
         }
 
+        
         public virtual void EnemyDeathCheck()
         {
             this.EnemyIsDead();

@@ -22,15 +22,15 @@ namespace Tsueda_Brandon_FinalProject
             {
                 // Menu
                 // GameMenu();
-                Console.WriteLine("~~~~Game Menu~~~~\n\n" +
+                Console.WriteLine("\n~~~~Game Menu~~~~\n\n" +
                 "   1. Start Game\n" +
                 "   2. Create Character\n" +
                 "   3. Load Character\n" +
-                "   4. Exit\n\n");
-                Console.Write("Please select 1 - 4: ");
+                "   4. Exit\n");
 
                 //store user input
-                usersSelection = Validation.ValidateString("Select a number betweeen 1 and 4   ");
+                usersSelection = Validation.ValidateString("Select a number betweeen 1 and 4: ");
+                Console.WriteLine("");
 
                 RubSelection(usersSelection);
             }
@@ -41,17 +41,15 @@ namespace Tsueda_Brandon_FinalProject
             //switch statement with cases for each selection
             switch (usersSelection)
             {
-                //TODO: Start Game - Run the game if there is a character loaded
+                //Start Game - Run the game if there is a character loaded
                 case "1":
                     {
-                        //TODO: if and else statements to make sure there is a character loaded
+                        //if and else statements to make sure there is a character loaded
                         if (player != null)
                         {
 
-                            Console.WriteLine("~~~~Start Game~~~~");
+                            Console.WriteLine("~~~~Start Game~~~~\n");
                             Adventure.AdventureTime(player);
-
-
                         }
 
                         else
@@ -62,19 +60,19 @@ namespace Tsueda_Brandon_FinalProject
                         break;
                     }
 
-                //TODO: Create character - prompt user for values needed to create the character
+                //Create character - prompt user for values needed to create the character
                 case "2":
                     {
-                        Console.WriteLine("~~~~Create Character~~~~");
+                        Console.WriteLine("~~~~Create Character~~~~\n");
                         player = Player.CreatePlayer();
 
                         break;
                     }
 
-                //TODO: Load character - display a list of generated characters for the user to load and select
+                //Load character - display a list of generated characters for the user to load and select
                 case "3":
                     {
-                        Console.WriteLine("~~~~Load Character~~~~");
+                        Console.WriteLine("~~~~Load Character~~~~\n");
                         player = Player.LoadPlayer();
 
 

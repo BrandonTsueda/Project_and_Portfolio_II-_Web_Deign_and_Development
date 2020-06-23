@@ -12,7 +12,7 @@ namespace Tsueda_Brandon_FinalProject
 
         public override void EnemyDeathCheck()
         {
-            Console.WriteLine("" + this.Name + " has been defeated!!!\nYou have been awarded " + this.ExperiencePoints + "!");
+            Console.WriteLine("" + this.Name + " has been defeated!!!\n\nYou have been awarded " + this.ExperiencePoints + " experience points!\n");
 
         }
 

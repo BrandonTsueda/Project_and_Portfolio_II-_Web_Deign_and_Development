@@ -1,15 +1,13 @@
 ﻿<Properties StartupConfiguration="{B14ED883-33FD-4351-8DAB-E453C32E0A9F}|Default">
   <MonoDevelop.Ide.ItemProperties.Tsueda__Brandon__FinalProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Validation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Enemy.cs">
     <Files>
-      <File FileName="Program.cs" Line="71" Column="19" />
-      <File FileName="Player.cs" Line="173" Column="24" />
-      <File FileName="Enemy.cs" Line="63" Column="63" />
-      <File FileName="Zombie.cs" Line="1" Column="1" />
-      <File FileName="Slime.cs" Line="1" Column="1" />
-      <File FileName="Vampire.cs" Line="1" Column="1" />
-      <File FileName="UndeadSpaceForceCadet.cs" Line="1" Column="1" />
-      <File FileName="Adventure.cs" Line="27" Column="41" />
+      <File FileName="Enemy.cs" Line="47" Column="1" />
+      <File FileName="Zombie.cs" Line="12" Column="1" />
+      <File FileName="Slime.cs" Line="15" Column="69" />
+      <File FileName="Vampire.cs" Line="15" Column="69" />
+      <File FileName="UndeadSpaceForceCadet.cs" Line="15" Column="69" />
+      <File FileName="Adventure.cs" Line="87" Column="70" />
       <File FileName="Validation.cs" Line="13" Column="76" />
     </Files>
     <Pads>
@@ -21,6 +19,7 @@
                 <Node name="FrameworkReferences" expanded="True" />
               </Node>
               <Node name="savedgames" expanded="True" />
+              <Node name="Enemy.cs" selected="True" />
             </Node>
           </Node>
         </State>

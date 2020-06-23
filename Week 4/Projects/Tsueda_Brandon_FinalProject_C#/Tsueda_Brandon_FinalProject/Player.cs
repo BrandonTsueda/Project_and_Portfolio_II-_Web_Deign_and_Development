@@ -57,7 +57,7 @@ namespace Tsueda_Brandon_FinalProject
                 else
                 {
                     enemy.Health -= attack;
-                    Console.WriteLine("You have attacked the enemy for " + attack + " damage!");
+                    Console.WriteLine("You have attacked the enemy for " + attack + " damage!\n");
                 }
                 enemy.Attack(this);
             }
@@ -97,7 +97,7 @@ namespace Tsueda_Brandon_FinalProject
             }
 
             //ask what player to load
-            string playerSelection = Validation.ValidateString("Enter the name of the player you want to load...");
+            string playerSelection = Validation.ValidateString("\nEnter the name of the player you want to load: ");
 
             //created an empty object for use later
             Player playerSelected = null;
@@ -107,10 +107,10 @@ namespace Tsueda_Brandon_FinalProject
             {
                 playerSelected = playerList.Find(player => player.Name.Equals(playerSelection, StringComparison.InvariantCultureIgnoreCase));
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                Console.WriteLine("Exception Message " + ex + "");
-                Console.WriteLine("This player does not exist, please select a valid player...");
+                Console.WriteLine("Exception Message " + e + "");
+                Console.WriteLine("This player does not exist, please select a valid player...\n");
             }
 
             return playerSelected;
@@ -146,7 +146,7 @@ namespace Tsueda_Brandon_FinalProject
         public void PlayerDeathCheck()
         {
             //PlayerIsDead();
-            Console.WriteLine("The player has died");
+            Console.WriteLine("" + Name + " has died");
 
             this.Health = 100;
             Console.Clear();
@@ -158,10 +158,12 @@ namespace Tsueda_Brandon_FinalProject
             Console.WriteLine("You have just leveled up!\n" +
                 "Level increased by 1\n" +
                 "Health increased by 25\n" +
-                "Damage increased by 12");
+                "Damage increased by 12\n");
             Level += 1;
             Health += 25;
             Dmg += 12;
+
+            Console.ReadKey();
 
         }
 

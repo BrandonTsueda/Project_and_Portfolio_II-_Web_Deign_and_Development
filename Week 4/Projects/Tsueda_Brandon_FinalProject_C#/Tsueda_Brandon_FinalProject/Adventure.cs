@@ -5,10 +5,10 @@ namespace Tsueda_Brandon_FinalProject
     {
         public static void AdventureTime(Player player)
         {
-            Zombie zombie = new Zombie("Bob the Zombie", 20, 15, 50f);
-            Slime slime = new Slime("Bubble Slime", 20, 13, 50f);
-            Vampire vampire = new Vampire("Vlad the Vampire", 20, 17, 50f);
-            UndeadSpaceForceCadet spaceman = new UndeadSpaceForceCadet("General Naird", 20, 20, 100f);
+            Slime slime = new Slime("Bubble Slime", 30, 13, 15f);
+            Zombie zombie = new Zombie("Bob the Zombie", 50, 15, 25f);
+            Vampire vampire = new Vampire("Vlad the Vampire", 80, 17, 30f);
+            UndeadSpaceForceCadet spaceman = new UndeadSpaceForceCadet("General Naird", 150, 20, 100f);
 
 
             Random random = new Random();
@@ -17,7 +17,7 @@ namespace Tsueda_Brandon_FinalProject
 
             if (number == 1)
             {
-                Console.WriteLine("You have encountered " + zombie.Name + "!");
+                Console.WriteLine("You have encountered " + zombie.Name + "!\n");
 
                 while (zombie.EnemyIsDead() != true)
                 {
@@ -32,7 +32,7 @@ namespace Tsueda_Brandon_FinalProject
 
             else if (number == 2)
             {
-                Console.WriteLine("You have encountered " + slime.Name + "!");
+                Console.WriteLine("You have encountered " + slime.Name + "!\n");
 
                 while (slime.EnemyIsDead() != true)
                 {
@@ -47,14 +47,14 @@ namespace Tsueda_Brandon_FinalProject
 
             else if (number == 3)
             {
-                Console.WriteLine("No enemies have been found during your last adventure...");
+                Console.WriteLine("No enemies where found during your last adventure...\n");
 
                 AdventureTime(player);
             }
 
             else if (number == 4)
             {
-                Console.WriteLine("You have encountered " + vampire.Name + "!");
+                Console.WriteLine("You have encountered " + vampire.Name + "!\n");
 
                 while (vampire.EnemyIsDead() != true)
                 {
@@ -69,7 +69,7 @@ namespace Tsueda_Brandon_FinalProject
 
             else if (number == 5)
             {
-                Console.WriteLine("You have encountered " + spaceman.Name + "!");
+                Console.WriteLine("You have encountered " + spaceman.Name + "!\n");
 
                 while (spaceman.EnemyIsDead() != true)
                 {
@@ -84,7 +84,7 @@ namespace Tsueda_Brandon_FinalProject
 
             else
             {
-                Console.WriteLine("Let's continue this adventure!!!");
+                Console.WriteLine("Let's continue this adventure!!!\n");
 
                 //the game will re-run the method so the adventure will continue
                 AdventureTime(player);
