@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{B14ED883-33FD-4351-8DAB-E453C32E0A9F}|Default">
   <MonoDevelop.Ide.ItemProperties.Tsueda__Brandon__FinalProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Enemy.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Zombie.cs">
     <Files>
       <File FileName="Enemy.cs" Line="47" Column="1" />
       <File FileName="Zombie.cs" Line="12" Column="1" />
@@ -9,6 +9,8 @@
       <File FileName="UndeadSpaceForceCadet.cs" Line="15" Column="69" />
       <File FileName="Adventure.cs" Line="87" Column="70" />
       <File FileName="Validation.cs" Line="13" Column="76" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Player.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,7 +21,7 @@
                 <Node name="FrameworkReferences" expanded="True" />
               </Node>
               <Node name="savedgames" expanded="True" />
-              <Node name="Enemy.cs" selected="True" />
+              <Node name="Zombie.cs" selected="True" />
             </Node>
           </Node>
         </State>
